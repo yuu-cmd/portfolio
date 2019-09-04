@@ -1392,18 +1392,18 @@ img.svg{
 .arlo_tm_contact_wrap .main_input_wrap .wrap textarea:focus{
 	outline: none;
 }
-.arlo_tm_contact_wrap .arlo_tm_button button{
+.arlo_tm_contact_wrap .arlo_tm_button a{
+	text-decoration: none;
     color: #000;
     background-color: #E3872D;
     font-weight: 600;
-	padding: 12px 35px;
-	border: 0;
+    padding: 12px 35px;
     border-radius: 3px;
     display: inline-block;
     position: relative;
     overflow: hidden;
 }
-.arlo_tm_contact_wrap .arlo_tm_button button:before{
+.arlo_tm_contact_wrap .arlo_tm_button a:before{
 	position: absolute;
     content: "";
     top: 0px;
@@ -1415,8 +1415,8 @@ img.svg{
     transition-duration: .6s;
     z-index: 1;
 }
-.arlo_tm_contact_wrap .arlo_tm_button button:hover:before{width: 170%;}
-.arlo_tm_contact_wrap .arlo_tm_button button span{
+.arlo_tm_contact_wrap .arlo_tm_button a:hover:before{width: 170%;}
+.arlo_tm_contact_wrap .arlo_tm_button a span{
 	position: relative;
 	z-index: 2;
 }

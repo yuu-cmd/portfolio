@@ -18,7 +18,7 @@ $php_email = filter_var($php_email, FILTER_SANITIZE_EMAIL);
 if (filter_var($php_email, FILTER_VALIDATE_EMAIL)) {
 	
 	
-		$php_subject = "Message from contact form";
+		$php_subject = "お問い合わせフォームからの送信";
 		
 		// To send HTML mail, the Content-type header must be set
 		$php_headers = 'MIME-Version: 1.0' . "\r\n";
@@ -31,7 +31,7 @@ if (filter_var($php_email, FILTER_VALIDATE_EMAIL)) {
 		. '<strong style="color:#f00a77;">お名前:</strong>  ' . $php_name . '様<br/>'
 		. '<strong style="color:#f00a77;">Eメール:</strong>  ' . $php_email . '<br/>'
 		. '<strong style="color:#f00a77;">お問い合わせ内容:</strong>  ' . $php_message . '<br/><br/>'
-		. '上記の内容でお問い合わせを送信致しました。'
+		. '上記の内容でお問い合わせを送信しました。'
 		. '<br/>'
 		. 'お問い合わせ頂いた内容を確認後、改めてEメールにてご連絡を差し上げます。</div>';
 		$php_sendmessage = "<div style=\"background-color:#f5f5f5; color:#333;\">" . $php_template . "</div>";

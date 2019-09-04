@@ -228,7 +228,7 @@
 								<div class="text">
 									<p>経験年月:3年 0ヵ月</p>
 									<p>3年間で3件のWebページリニューアルと2件の新規制作を受注(各案件:約10ページ構成)</p>
-									<p>デザインヒアリングから納品までを担当</p>
+									<p>デザインヒアリングから納品後のお客様への記事投稿フォローまでを経験</p>
 								</div>
 							</div>
 						</div>
@@ -333,28 +333,25 @@
 								<div class="rightbox">
 									<div class="arlo_tm_contact_wrap">
 										<div class="main_input_wrap">
-											<form class="formrun" action="https://form.run/api/v1/r/iyor8ja1buvd24h9sknbv4xn" method="post">												<div class="returnmessage" data-success="Your message has been received, We will contact you soon."></div>
-												<div class="wrap">
-													<input id="name" type="text" name="お名前" placeholder="お名前">
-												</div>
-												<div class="wrap">
-													<input id="email" type="text" name="メールアドレス" data-formrun-type="email" data-formrun-required placeholder="Eメールアドレス">
-													<div data-formrun-show-if-error="メールアドレス">メールアドレスを正しく入力してください</div>
-												</div>
-												<div class="wrap">
-													<textarea id="message" name="お問い合わせ" data-formrun-required placeholder="お問い合わせ内容"></textarea>
-													<div data-formrun-show-if-error="お問い合わせ">お問い合わせ内容を入力してください</div>
-												</div>
-												<div class="arlo_tm_button">
-													<!-- ボット投稿をブロックするためのタグ -->
-													<div class="_formrun_gotcha">
-														<label for="_formrun_gotcha">If you are a human, ignore this field</label>
-														<input type="text" name="_formrun_gotcha" id="_formrun_gotcha" tabindex="-1">
+											<div class="main_input_wrap">
+												<form action="modal/contact.php" method="post" class="contact_form" id="contact_form">
+													<div class="returnmessage" data-success="お問い合わせ内容を送信しました。"></div>
+													<div class="empty_notice"><span>未入力の項目があります。</span></div>
+													<div class="wrap">
+														<input id="name" type="text" placeholder="お名前">
 													</div>
-													<button type="submit" data-formrun-error-text="未入力の項目があります" data-formrun-submitting-text="送信中..."><span>送信する</span></button>
-												</div>
-											</form>
-										</div>
+													<div class="wrap">
+														<input id="email" type="text" placeholder="Eメールアドレス">
+													</div>
+													<div class="wrap">
+														<textarea id="message" placeholder="お問い合わせ内容"></textarea>
+													</div>
+													<div class="arlo_tm_button">
+														<a id="send_message" href="#"><span>送信する</span></a>
+													</div>
+												</form>
+											</div>
+											</div>
 									</div>
 								</div>
 							</div>
