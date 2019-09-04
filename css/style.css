@@ -1410,6 +1410,7 @@ img.svg{
     height: 100%;
     left: -25%;
     width: 0%;
+	color: #000;	
     background-color: #ccc;
     transform: skew(50deg);
     transition-duration: .6s;
