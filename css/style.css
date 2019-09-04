@@ -761,25 +761,15 @@ img.svg{
     color: #000;
     background-color: #E3872D;
     font-weight: 600;
-    padding: 12px 35px;
+	padding: 12px 35px;
+	border: 0;
     border-radius: 3px;
     display: inline-block;
-    position: relative;
-    overflow: hidden;;
 }
-.arlo_tm_about_wrap .buttons_wrap ul li a:before{
-	position: absolute;
-    content: "";
-    top: 0px;
-    height: 100%;
-    left: -25%;
-    width: 0%;
+.arlo_tm_about_wrap .buttons_wrap ul li a:hover{
     background-color: #ccc;
-    transform: skew(50deg);
-    transition-duration: .6s;
-    z-index: 1;
+    transition-duration: .4s;
 }
-.arlo_tm_about_wrap .buttons_wrap ul li a:hover:before{width: 180%;}
 .arlo_tm_skills_wrap,
 .arlo_tm_skills_wrap .inner_wrap{
 	width: 100%;
@@ -1399,27 +1389,10 @@ img.svg{
 	padding: 12px 35px;
 	border: 0;
     border-radius: 3px;
-    display: inline-block;
-    position: relative;
-    overflow: hidden;
 }
-.arlo_tm_contact_wrap .arlo_tm_button button:before{
-	position: absolute;
-    content: "";
-    top: 0px;
-    height: 100%;
-    left: -25%;
-    width: 0%;
-	color: #000;	
+.arlo_tm_contact_wrap .arlo_tm_button button:hover{
     background-color: #ccc;
-    transform: skew(50deg);
-    transition-duration: .6s;
-    z-index: 1;
-}
-.arlo_tm_contact_wrap .arlo_tm_button button:hover:before{width: 170%;}
-.arlo_tm_contact_wrap .arlo_tm_button button span{
-	position: relative;
-	z-index: 2;
+    transition-duration: .4s;
 }
 .arlo_tm_contact_wrap .empty_notice{
 	color: #BD0A0D;
