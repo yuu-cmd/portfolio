@@ -981,13 +981,14 @@ img.svg{
     font-size: 22px;
     font-weight: 600;
     color: #000;
-	line-height: 1;
+	line-height: 1.3;
 }
 
 .imp_info {
 	font-size: 18px;
 	font-weight: bold;
 }
+
 
 /*---------------------------------------------------*/
 /*	05) ARLO COUNTERBOX
