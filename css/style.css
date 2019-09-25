@@ -1385,7 +1385,10 @@ img.svg{
 }
 .arlo_tm_contact_wrap .arlo_tm_button button{
     color: #000;
-    background-color: #E3872D;
+	background-color: #E3872D;
+	-webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
     font-weight: 600;
 	padding: 12px 35px;
 	border: 0;
@@ -1393,7 +1396,9 @@ img.svg{
 }
 .arlo_tm_contact_wrap .arlo_tm_button button:hover{
     background-color: #ccc;
-    transition-duration: .4s;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
 }
 .arlo_tm_contact_wrap .empty_notice{
 	color: #BD0A0D;
