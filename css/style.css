@@ -8,7 +8,6 @@
 /*---------------------------------------------------*/
 /*	01) ARLO BASE
 /*---------------------------------------------------*/
-
 html {
 	overflow-x: hidden;
 	padding: 0px;
@@ -120,11 +119,9 @@ img.svg{
 }
 .arlo_tm_preloader.loaded:before, 
 .arlo_tm_preloader.loaded:after{height: 0%;}
-
 /*---------------------------------------------------*/
 /*	02) ARLO CONTENT
 /*---------------------------------------------------*/
-
 .arlo_tm_leftpart_wrap{
 	width: 300px;
 	position: fixed;
@@ -478,11 +475,9 @@ img.svg{
 	color: #fff;
 	font-size: 30px;
 }
-
 /*---------------------------------------------------*/
 /*	03) ARLO ABOUT
 /*---------------------------------------------------*/
-
 .arlo_tm_title_holder{
 	width: 100%;
 	height: auto;
@@ -684,12 +679,14 @@ img.svg{
 	margin-bottom: 20px;
 }
 .arlo_tm_about_wrap .subtitle p{
-	
 	color: #333;
 	font-size: 15px;
 	font-weight: 600;
 }
-.arlo_tm_about_wrap .definition{margin-bottom: 15px;}
+.arlo_tm_about_wrap .definition{
+	text-align: justify;
+	text-justify: inter-ideograph; 
+	margin-bottom: 15px;}
 .arlo_tm_about_wrap .definition p{color: #333;}
 .arlo_tm_about_wrap .definition p strong{color: #E3872D;}
 
@@ -776,7 +773,6 @@ img.svg{
 	height: auto;
 	clear: both;
 	float: left;
-	
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
@@ -923,7 +919,6 @@ img.svg{
 	margin-bottom: 18px;
 }
 .arlo_tm_mini_title_holder.contact h4{margin-bottom:30px;}
-
 /*---------------------------------------------------*/
 /*	04) ARLO SKILLS, SERVICES
 /*---------------------------------------------------*/
@@ -958,10 +953,15 @@ img.svg{
 	    -ms-transition: all .3s ease;
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
-	
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */ 
+}
+
+.arlo_tm_skills_wrap .container .inner .text,
+.arlo_tm_services_wrap .container .inner .text{
+	text-align: justify;
+	text-justify: inter-ideograph;
 }
 .arlo_tm_skills_wrap .container .inner:hover,
 .arlo_tm_services_wrap .container .inner:hover{top: -5px;}
@@ -977,7 +977,6 @@ img.svg{
 .arlo_tm_services_wrap .container .title_service{margin-bottom: 17px;}
 .arlo_tm_skills_wrap .container .title_skills h3,
 .arlo_tm_services_wrap .container .title_service h3{
-	
     font-size: 22px;
     font-weight: 600;
     color: #000;
@@ -988,12 +987,9 @@ img.svg{
 	font-size: 18px;
 	font-weight: bold;
 }
-
-
 /*---------------------------------------------------*/
 /*	05) ARLO COUNTERBOX
 /*---------------------------------------------------*/
-
 .arlo_tm_counter_wrap{
 	width: 100%;
 	height: auto;
@@ -1062,11 +1058,9 @@ img.svg{
 	display: block;
 	font-weight: 600;
 }
-
 /*---------------------------------------------------*/
 /*	06) ARLO PORTFOLIO
 /*---------------------------------------------------*/
-
 .arlo_tm_title_holder.portfolio{padding-bottom: 90px;}
 .arlo_tm_portfolio_wrapper_all{
 	width: 100%;
@@ -1184,7 +1178,6 @@ img.svg{
 	background-size: cover;
 	background-position: center;
 }
-
 /*---------------------------------------------------*/
 /*	07) ARLO TESTIMONIALS
 /*---------------------------------------------------*/
@@ -1258,7 +1251,6 @@ img.svg{
 /* .arlo_tm_universal_box_wrap .overlay_image.testimonial{background-image: url(..//img/hero/3.jpg);} */
 .arlo_tm_universal_box_wrap .overlay_color.testimonial{background-color: rgba(7,23,55,.8);}
 .arlo_tm_universal_box_wrap .content.testimonial{padding: 82px 0px 90px 0px;}
-
 /*---------------------------------------------------*/
 /*	08) ARLO CONTACT
 /*---------------------------------------------------*/
@@ -1449,11 +1441,9 @@ img.svg{
 .short_info_wrap ul li a:hover {
 	color: #BD0A0D;
 }
-
 /*---------------------------------------------------*/
 /*	09) EDREA TO TOP
 /*---------------------------------------------------*/
-
 .arlo_tm_totop{
 	position: fixed;
 	bottom: 40px;
@@ -1509,7 +1499,6 @@ img.svg{
 /*---------------------------------------------------*/
 /*	10) ARLO MOBILE HEADER
 /*---------------------------------------------------*/
-
 .arlo_tm_mobile_header_wrap{
 	width: 100%;
 	height: auto;
