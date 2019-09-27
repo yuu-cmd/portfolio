@@ -963,6 +963,16 @@ img.svg{
 	text-align: justify;
 	text-justify: inter-ideograph;
 }
+
+.arlo_tm_services_wrap .container .inner .text {
+	height: 75%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	display: -webkit-flex;
+	-webkit-flex-direction: column;
+	-webkit-justify-content: space-between;
+}
 .arlo_tm_skills_wrap .container .inner:hover,
 .arlo_tm_services_wrap .container .inner:hover{top: -5px;}
 .arlo_tm_skills_wrap .container .icon,
