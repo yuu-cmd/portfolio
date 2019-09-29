@@ -414,16 +414,6 @@ img.svg{
 	height: auto;
 	float: left;
 	font-family: 'M PLUS 1p', sans-serif;
-	animation-name: fade-in2;
-	animation-duration: 2s;
-	animation-timing-function: ease-out;
-	animation-delay: 1s;
-	animation-iteration-count: 1;
-	animation-direction: normal;
-	animation-fill-mode: forwards;
-	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
-			box-sizing: border-box; /* Opera/IE 8+ */
 }
 
 @keyframes fade-in2 {
