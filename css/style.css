@@ -1061,7 +1061,7 @@ img.svg{
 /*---------------------------------------------------*/
 /*	06) ARLO PORTFOLIO
 /*---------------------------------------------------*/
-.arlo_tm_title_holder.portfolio{padding-bottom: 90px;}
+.arlo_tm_title_holder.portfolio{padding-bottom: 60px;}
 .arlo_tm_portfolio_wrapper_all{
 	width: 100%;
 	height: auto;
@@ -1117,6 +1117,11 @@ img.svg{
 	        transition: all .1s ease;
 }
 .arlo_tm_portfolio_filter li a.current{color: #BD0A0D;}
+
+.caution {
+	margin-bottom: 20px;
+}
+
 .isara,
 .isara:hover {
 	text-decoration: none;
