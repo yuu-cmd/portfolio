@@ -1117,7 +1117,10 @@ img.svg{
 	        transition: all .1s ease;
 }
 .arlo_tm_portfolio_filter li a.current{color: #BD0A0D;}
-
+.isara,
+.isara:hover {
+	text-decoration: none;
+}
 /* PORTFOLIO LIST */
 
 .arlo_tm_portfolio_list{
