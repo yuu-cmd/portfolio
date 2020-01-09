@@ -14,7 +14,7 @@
    viewBox="0 0 1200 744.09448"
    id="svg2"
    version="1.1"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
    sodipodi:docname="top-logo.svg"
    style="enable-background:new">
   <defs
@@ -29,6 +29,19 @@
          in2="BackgroundImage"
          id="feBlend4173" />
     </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter870"
+       x="-0.016035137"
+       width="1.0320703"
+       y="-0.047303655"
+       height="1.0946073">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="7.5162673"
+         id="feGaussianBlur872" />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -38,8 +51,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.98994949"
-     inkscape:cx="673.41178"
-     inkscape:cy="383.46359"
+     inkscape:cx="578.13162"
+     inkscape:cy="262.24528"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
      showgrid="true"
@@ -71,25 +84,27 @@
      id="layer2"
      inkscape:label="background">
     <rect
-       style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect4176"
-       width="1124.9696"
-       height="278.51395"
-       x="46.554558"
-       y="277.65005"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:9.04951096;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect904"
+       width="1130"
+       height="370"
+       x="30"
+       y="174.09448"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"
-       transform="matrix(0.9959389,-0.09003175,0,1,0,0)" />
+       inkscape:export-ydpi="90" />
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer3"
-     inkscape:label="text">
+     inkscape:label="text"
+     style="display:inline">
     <flowRoot
        xml:space="preserve"
        id="flowRoot4166"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:150px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       transform="matrix(1.1521729,0,0,1.0900117,-56.034414,86.289)"><flowRegion
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0.01%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       transform="matrix(1.1521729,0,0,1.0900117,-56.034414,98.289)"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><flowRegion
          id="flowRegion4168"><rect
            id="rect4170"
            width="540"
@@ -98,12 +113,14 @@
            y="144.09448"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:150px;font-family:Ubuntu;-inkscape-font-specification:Ubuntu" /></flowRegion><flowPara
          id="flowPara4172"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;font-family:'Lobster 1.4';-inkscape-font-specification:'Lobster 1.4, ';letter-spacing:0.30128616px">i - <flowSpan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:150px;line-height:125%;font-family:'Lobster 1.4';-inkscape-font-specification:'Lobster 1.4, ';letter-spacing:0.30128616px">i - <flowSpan
    style="line-height:125%;word-spacing:0.1774182px"
    id="flowSpan4219">nob</flowSpan></flowPara></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot4199"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:70px;line-height:125%;font-family:'Lobster 1.4';-inkscape-font-specification:'Lobster 1.4, ';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"><flowRegion
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0.01%;font-family:'Lobster 1.4';-inkscape-font-specification:'Lobster 1.4, ';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><flowRegion
          id="flowRegion4201"><rect
            id="rect4203"
            width="520"
@@ -111,10 +128,13 @@
            x="480"
            y="204.09448"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:70px;font-family:'Lobster 1.4';-inkscape-font-specification:'Lobster 1.4, '" /></flowRegion><flowPara
-         id="flowPara4205" /></flowRoot>    <flowRoot
+         id="flowPara4205"
+         style="font-size:70px;line-height:1.25"> </flowPara></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot4207"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25px;line-height:125%;font-family:'Lobster 1.4';-inkscape-font-specification:'Lobster 1.4, ';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"><flowRegion
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0.01%;font-family:'Lobster 1.4';-inkscape-font-specification:'Lobster 1.4, ';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><flowRegion
          id="flowRegion4209"><rect
            id="rect4211"
            width="540"
@@ -122,35 +142,41 @@
            x="470"
            y="204.09448"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Lobster 1.4';-inkscape-font-specification:'Lobster 1.4, '" /></flowRegion><flowPara
-         id="flowPara4213" /></flowRoot>    <text
+         id="flowPara4213"
+         style="font-size:25px;line-height:1.25"> </flowPara></flowRoot>    <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:67.64868164px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="501.37628"
-       y="243.89612"
+       style="font-style:normal;font-weight:normal;font-size:12.40083218px;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.03340268px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="485.08139"
+       y="248.01631"
        id="text4215"
-       sodipodi:linespacing="125%"
-       transform="scale(0.97410906,1.0265791)"><tspan
+       transform="scale(1.0066469,0.99339699)"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
          sodipodi:role="line"
          id="tspan4217"
-         x="501.37628"
-         y="243.89612"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Lobster 1.4';-inkscape-font-specification:'Lobster 1.4, '">&lt;!--- Coding your hope ---&gt;</tspan></text>
+         x="485.08139"
+         y="248.01631"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:69.9083252px;line-height:1.25;font-family:'Lobster 1.4';-inkscape-font-specification:'Lobster 1.4, ';stroke-width:1.03340268px">&lt;!-- Coding your hope --&gt;</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="640"
        y="224.09448"
        id="text4221"
-       sodipodi:linespacing="125%"><tspan
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
          sodipodi:role="line"
          id="tspan4223"
          x="640"
-         y="224.09448" /></text>
+         y="224.09448"
+         style="font-size:25px;line-height:1.25"> </tspan></text>
     <flowRoot
        xml:space="preserve"
        id="flowRoot4166-8"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:150px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new"
-       transform="matrix(1.1125767,0,0,1.2389833,216.58534,170.75673)"><flowRegion
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0.01%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new"
+       transform="matrix(1.1125767,0,0,1.2389833,216.58534,182.75673)"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><flowRegion
          id="flowRegion4168-7"><rect
            id="rect4170-2"
            width="540"
@@ -159,18 +185,21 @@
            y="144.09448"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:150px;font-family:Ubuntu;-inkscape-font-specification:Ubuntu" /></flowRegion><flowPara
          id="flowPara4172-8"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;font-family:'Lobster 1.4';-inkscape-font-specification:'Lobster 1.4, ';letter-spacing:0.30128616px">create</flowPara></flowRoot>  </g>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:150px;line-height:125%;font-family:'Lobster 1.4';-inkscape-font-specification:'Lobster 1.4, ';letter-spacing:0.30128616px">create</flowPara></flowRoot>  </g>
   <g
      inkscape:groupmode="layer"
      id="layer6"
-     inkscape:label="text deco">
+     inkscape:label="text deco"
+     style="display:inline">
     <ellipse
        style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path4226"
        cx="518.50537"
        cy="295.99338"
        rx="6.5324674"
-       ry="6.1620245" />
+       ry="6.1620245"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
   </g>
   <g
      inkscape:label="mark"
@@ -181,7 +210,9 @@
     <g
        style="opacity:1"
        id="g4152"
-       transform="matrix(0.75672224,0,0,0.80646564,77.677306,475.45919)">
+       transform="matrix(0.75672224,0,0,0.80646564,77.677306,475.45919)"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
       <g
          id="g4139"
          style="filter:url(#filter4171)">
@@ -196,7 +227,9 @@
     <g
        transform="matrix(0.75672224,0,0,0.80646564,278.66092,475.45919)"
        id="g4202"
-       style="opacity:1">
+       style="opacity:1"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
       <g
          style="filter:url(#filter4171)"
          id="g4204">
@@ -211,8 +244,10 @@
     <flowRoot
        xml:space="preserve"
        id="flowRoot4158"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:125px;line-height:125%;font-family:Verdana;-inkscape-font-specification:Verdana;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       transform="translate(0,308.26772)"><flowRegion
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0.01%;font-family:Verdana;-inkscape-font-specification:Verdana;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       transform="translate(0,308.26772)"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><flowRegion
          id="flowRegion4160"><rect
            id="rect4162"
            width="560"
@@ -220,36 +255,47 @@
            x="460"
            y="144.09448"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:125px;font-family:Verdana;-inkscape-font-specification:Verdana" /></flowRegion><flowPara
-         id="flowPara4164" /></flowRoot>  </g>
+         id="flowPara4164"
+         style="font-size:125px;line-height:1.25"> </flowPara></flowRoot>  </g>
   <g
      inkscape:groupmode="layer"
      id="layer5"
-     inkscape:label="eye-color">
+     inkscape:label="eye-color"
+     style="display:inline">
     <path
        inkscape:connector-curvature="0"
        style="opacity:1;fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:#f9f9f9;stroke-width:7.95521355;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 181.48492,411.97807 a 50.891632,75.067542 0 0 1 -50.89163,75.06755 50.891632,75.067542 0 0 1 -50.891621,-75.06755 50.891632,75.067542 0 0 1 50.891621,-75.06753 50.891632,75.067542 0 0 1 50.89163,75.06753 z"
-       id="path4177-5" />
+       id="path4177-5"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        id="path4208"
        d="m 382.46853,411.97807 a 50.891632,75.067542 0 0 1 -50.89162,75.06755 50.891632,75.067542 0 0 1 -50.89162,-75.06755 50.891632,75.067542 0 0 1 50.89162,-75.06753 50.891632,75.067542 0 0 1 50.89162,75.06753 z"
        style="opacity:1;fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:#f9f9f9;stroke-width:7.95521355;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer4"
-     inkscape:label="white-circle">
+     inkscape:label="white-circle"
+     style="display:inline">
     <path
        style="opacity:1;fill:#f9f9f9;fill-opacity:1;fill-rule:nonzero;stroke:#f9f9f9;stroke-width:1.21596146;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 178.04307,407.36509 a 33.979148,57.857961 0 0 1 -33.97916,57.85796 33.979148,57.857961 0 0 1 -33.97913,-57.85796 33.979148,57.857961 0 0 1 33.97913,-57.85797 33.979148,57.857961 0 0 1 33.97916,57.85797 z"
        id="path4177"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        inkscape:connector-curvature="0"
        id="path4210"
        d="m 379.02669,407.36509 a 33.979148,57.857961 0 0 1 -33.97916,57.85796 33.979148,57.857961 0 0 1 -33.97913,-57.85796 33.979148,57.857961 0 0 1 33.97913,-57.85797 33.979148,57.857961 0 0 1 33.97916,57.85797 z"
-       style="opacity:1;fill:#f9f9f9;fill-opacity:1;fill-rule:nonzero;stroke:#f9f9f9;stroke-width:1.21596146;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+       style="opacity:1;fill:#f9f9f9;fill-opacity:1;fill-rule:nonzero;stroke:#f9f9f9;stroke-width:1.21596146;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
   </g>
   <style
      id="style4137"
