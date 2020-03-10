@@ -21,7 +21,8 @@ body{
 	letter-spacing: 0.5px;
 	word-wrap: break-word;
 	font-weight: 400;
-	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
 }
 svg{
 	fill: currentcolor;
@@ -39,8 +40,7 @@ img.svg{
 	height: auto;
 	clear: both;
 	float: left;
-	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */ /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */ 
 }
 #ripple{
@@ -54,10 +54,6 @@ img.svg{
 
 ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
     color: #333;
-}
-:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-   color: #333;
-   opacity:  1;
 }
 ::-moz-placeholder { /* Mozilla Firefox 19+ */
    color: #333;
@@ -90,7 +86,9 @@ img.svg{
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
+	    -ms-transform: translate(-50%,-50%);
+	        transform: translate(-50%,-50%);
 	z-index: 33333;
 }
 .arlo_tm_preloader.loaded {
@@ -132,8 +130,6 @@ img.svg{
 	border-right: solid 1px #000;
 	z-index: 100;
 	-webkit-transition: all .3s ease;
-	   -moz-transition: all .3s ease;
-	    -ms-transition: all .3s ease;
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 	
@@ -149,8 +145,7 @@ img.svg{
 	margin-bottom: 50px;
 	border-bottom: 1px solid rgba(255,255,255,.1);
 	
-	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */ /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
 }
 .arlo_tm_leftpart_wrap .menu_list_wrap{
@@ -159,8 +154,7 @@ img.svg{
 	clear: both;
 	float: left;
 	padding: 0px 20px 0px 60px;
-	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */ /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
 }
 .arlo_tm_leftpart_wrap .menu_list_wrap ul{
@@ -181,8 +175,6 @@ img.svg{
 	padding-bottom: 19px;
 	
 	-webkit-transition: all .3s ease;
-	   -moz-transition: all .3s ease;
-	    -ms-transition: all .3s ease;
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
@@ -193,13 +185,13 @@ img.svg{
 	width: 0px;
 	background-color: #E3872D;
 	top: 14px;
-	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	    -ms-transform: translateY(-50%);
+	        transform: translateY(-50%);
 	left: 100%;
 	margin-left: 10px;
 	
 	-webkit-transition: all .3s ease;
-	   -moz-transition: all .3s ease;
-	    -ms-transition: all .3s ease;
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
@@ -235,25 +227,23 @@ img.svg{
 	z-index: 200;
 	
 	-webkit-transition: all .3s ease;
-	   -moz-transition: all .3s ease;
-	    -ms-transition: all .3s ease;
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
 .arlo_tm_leftpart_wrap .arlo_tm_resize.opened{right: -30px;}
 .arlo_tm_leftpart_wrap .arlo_tm_resize i{
 	color: #000;
-	transform: rotate(0deg);
+	-webkit-transform: rotate(0deg);
+	    -ms-transform: rotate(0deg);
+	        transform: rotate(0deg);
 	position: absolute;
 	left: 6px;
 	
 	-webkit-transition: all .3s ease;
-	   -moz-transition: all .3s ease;
-	    -ms-transition: all .3s ease;
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.arlo_tm_leftpart_wrap .arlo_tm_resize i.opened{transform: rotate(-180deg);}
+.arlo_tm_leftpart_wrap .arlo_tm_resize i.opened{-webkit-transform: rotate(-180deg);-ms-transform: rotate(-180deg);transform: rotate(-180deg);}
 .arlo_tm_rightpart{
 	width: 100%;
 	height: auto;
@@ -261,13 +251,10 @@ img.svg{
 	padding-left: 300px;
 	
 	-webkit-transition: all .3s ease;
-	   -moz-transition: all .3s ease;
-	    -ms-transition: all .3s ease;
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 	
-	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */ /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
 }
 .arlo_tm_rightpart.full{padding-left: 0px;}
@@ -278,8 +265,7 @@ img.svg{
 	clear: both;
 	float: left;
 	
-	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */ /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
 }
 .arlo_tm_hero_header_wrap{
@@ -289,8 +275,7 @@ img.svg{
 	float: left;
 	margin-bottom: 100px;
 	
-	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */ /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
 }
 .arlo_tm_universal_box_wrap{
@@ -300,8 +285,7 @@ img.svg{
 	float: left;
 	position: relative;
 	
-	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */ /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
 }
 .arlo_tm_universal_box_wrap .bg_wrap{
@@ -338,7 +322,8 @@ img.svg{
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	object-fit: cover;
+	-o-object-fit: cover;
+	   object-fit: cover;
 }
 .arlo_tm_universal_box_wrap .overlay_color{
 	position: absolute;
@@ -355,8 +340,7 @@ img.svg{
 	float: left;
 	position: relative;
 	z-index: 25;
-	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */ /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
 }
 /* .arlo_tm_universal_box_wrap .overlay_image.hero{background-image: url(..//img/hero/2.jpg);} */
@@ -366,14 +350,15 @@ img.svg{
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
+	    -ms-transform: translate(-50%,-50%);
+	        transform: translate(-50%,-50%);
 	z-index: 2;
 	text-align: center;
 	width: 100%;
 	padding: 0px 20px;
 	
-	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */ /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
 }
 .arlo_tm_hero_header_wrap .image_wrap{
@@ -416,9 +401,14 @@ img.svg{
 	font-family: 'M PLUS 1p', sans-serif;
 }
 
+@-webkit-keyframes fade-in2 {
+	0% {opacity: 0; -webkit-transform: translate3d(0,-20px,0); transform: translate3d(0,-20px,0);}
+	100% {opacity: 1; -webkit-transform: translate3d(0,0,0); transform: translate3d(0,0,0);}
+}
+
 @keyframes fade-in2 {
-	0% {opacity: 0; transform: translate3d(0,-20px,0);}
-	100% {opacity: 1; transform: translate3d(0,0,0);}
+	0% {opacity: 0; -webkit-transform: translate3d(0,-20px,0); transform: translate3d(0,-20px,0);}
+	100% {opacity: 1; -webkit-transform: translate3d(0,0,0); transform: translate3d(0,0,0);}
 }
 
 .arlo_tm_hero_header_wrap .text_intro p{
@@ -434,7 +424,9 @@ img.svg{
 	position: absolute;
 	left: 50%;
 	bottom: 5%;
-	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	    -ms-transform: translateX(-50%);
+	        transform: translateX(-50%);
 	margin-left: -21px;
 	z-index: 55;
 }
@@ -477,8 +469,7 @@ img.svg{
 	padding-bottom: 100px;
 	position: relative;
 	
-	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */ /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
 }
 .arlo_tm_title_holder.contact{padding-bottom: 93px;}
@@ -511,8 +502,7 @@ img.svg{
 	float: left;
 	background-color: #fff;
 	
-	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */ /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
 }
 
@@ -524,8 +514,7 @@ img.svg{
 	text-align: left;
 	margin-bottom: 120px;
 	
-	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */ /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
 }
 .arlo_tm_main_title_holder.about{
@@ -556,8 +545,7 @@ img.svg{
 	float: left;
 	background-color: #fff;
 	
-	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */ /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
 }
 .arlo_tm_main_title_holder{
@@ -568,8 +556,7 @@ img.svg{
 	text-align: left;
 	margin-bottom: 120px;
 	
-	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */ /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
 }
 .arlo_tm_main_title_holder.about{
@@ -602,8 +589,7 @@ img.svg{
 	position: relative;
 	margin-top: -6px;
 	
-	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */ /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */ 
 }
 .arlo_tm_about_wrap .author_wrap{
@@ -612,11 +598,14 @@ img.svg{
 	clear: both;
 	float: left;
 	position: relative;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	align-items: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	
-	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */ /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */ 
 }
 .arlo_tm_about_wrap .leftbox{
@@ -625,8 +614,7 @@ img.svg{
 	height: auto;
 	padding-right: 40px;
 	
-	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */ /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
 	
 }
@@ -659,8 +647,7 @@ img.svg{
 	float: right;
 	padding: 0px 0px 0px 65px;
 	
-	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */ /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */ 
 }
 .arlo_tm_about_wrap .subtitle{
@@ -687,8 +674,7 @@ img.svg{
 	float: left;
 	margin-bottom: 13px;
 	
-	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */ /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
 }
 .arlo_tm_about_wrap .arlo_tm_main_title_holder{margin-bottom: 40px;}
@@ -715,8 +701,6 @@ img.svg{
 	color: #000;
     position: relative;
     -webkit-transition: all .3s ease;
-    -moz-transition: all .3s ease;
-    -ms-transition: all .3s ease;
     -o-transition: all .3s ease;
     transition: all .3s ease;
 }
@@ -726,8 +710,7 @@ img.svg{
 	height: auto;
 	clear: both;
 	float: left;
-	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */ /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
 }
 .arlo_tm_about_wrap .buttons_wrap ul{
@@ -755,7 +738,9 @@ img.svg{
 }
 .arlo_tm_about_wrap .buttons_wrap ul li a:hover{
     background-color: #ccc;
-    transition-duration: .4s;
+    -webkit-transition-duration: .4s;
+         -o-transition-duration: .4s;
+            transition-duration: .4s;
 }
 .arlo_tm_skills_wrap,
 .arlo_tm_skills_wrap .inner_wrap{
@@ -763,8 +748,7 @@ img.svg{
 	height: auto;
 	clear: both;
 	float: left;
-	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */ /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
 }
 .arlo_tm_skills_wrap{
@@ -772,7 +756,7 @@ img.svg{
 	padding: 90px 0px;
 	margin-bottom: 100px;
 }
-.arlo_tm_skills_wrap .inner_wrap{display: flex;}
+.arlo_tm_skills_wrap .inner_wrap{display: -webkit-box;display: -ms-flexbox;display: flex;}
 .arlo_tm_skills_wrap .leftbox{
 	width: 35%;
 	height: auto;
@@ -780,8 +764,7 @@ img.svg{
 	float: left;
 	padding-right:0px;
 	
-	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */ /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
 }
 .arlo_tm_skills_wrap .rightbox{
@@ -791,8 +774,7 @@ img.svg{
 	float: right;
 	padding-left: 65px;
 	
-	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */ /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
 }
 .progress_bar_wrap_total{
@@ -804,8 +786,7 @@ img.svg{
 	position: relative;
 	margin-top: -4px;
 	
-	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */ /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
 }
 .arlo_tm_progress_wrap[data-size="big"] .arlo_tm_progress .arlo_tm_bar_bg{height:40px;}
@@ -813,20 +794,14 @@ img.svg{
 
 .arlo_tm_progress_wrap[data-round="a"] .arlo_tm_progress .arlo_tm_bar_bg,
 .arlo_tm_progress_wrap[data-round="a"] .arlo_tm_progress .arlo_tm_bar{
-	-webkit-border-radius:2px;
-	-moz-border-radius:2px;
 	border-radius:2px;
 }
 .arlo_tm_progress_wrap[data-round="b"] .arlo_tm_progress .arlo_tm_bar_bg,
 .arlo_tm_progress_wrap[data-round="b"] .arlo_tm_progress .arlo_tm_bar{
-	-webkit-border-radius:5px;
-	-moz-border-radius:5px;
 	border-radius:5px;
 }
 .arlo_tm_progress_wrap[data-round="c"] .arlo_tm_progress .arlo_tm_bar_bg,
 .arlo_tm_progress_wrap[data-round="c"] .arlo_tm_progress .arlo_tm_bar{
-	-webkit-border-radius:50px;
-	-moz-border-radius:50px;
 	border-radius:50px;
 }
 .arlo_tm_progress{
@@ -866,8 +841,7 @@ img.svg{
 	height:100%;
 }
 .arlo_tm_progress .arlo_tm_bar_bg .arlo_tm_bar_wrap.open{
-	-webkit-animation: arlo_tm_expand 3s cubic-bezier(0.165, 0.840, 0.440, 1.000);  /* Safari 4+ */
-	-moz-animation:    arlo_tm_expand 3s cubic-bezier(0.165, 0.840, 0.440, 1.000);  /* Fx 5+ */
+	-webkit-animation: arlo_tm_expand 3s cubic-bezier(0.165, 0.840, 0.440, 1.000);  /* Safari 4+ */  /* Fx 5+ */
 	animation:         arlo_tm_expand 3s cubic-bezier(0.165, 0.840, 0.440, 1.000);  /* IE 10+ */
 	width:100%;	
 }
@@ -878,20 +852,18 @@ img.svg{
 	overflow:hidden;
 }
 .arlo_tm_progress_wrap[data-strip="on"] .arlo_tm_progress .arlo_tm_bar{
+	background-image: -o-linear-gradient(135deg, rgba(255, 255, 255, 1) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 1) 75%, transparent 75%, transparent);
 	background-image: linear-gradient(-45deg, rgba(255, 255, 255, 1) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 1) 75%, transparent 75%, transparent);
 	
 	-webkit-animation: arlo_tm_bar_move 4s linear infinite;
-	-moz-animation: arlo_tm_bar_move 4s linear infinite;
 	animation: arlo_tm_bar_move 4s linear infinite;
 	background-size: 50px 50px;
 }
 @-webkit-keyframes arlo_tm_bar_move {0%{background-position: 0 0;} 100% {background-position: 50px 50px;}}
-@-moz-keyframes arlo_tm_bar_move {0%{background-position: 0 0;} 100% {background-position: 50px 50px;}}
 @keyframes arlo_tm_bar_move {0%{background-position: 0 0;} 100% {background-position: 50px 50px;}}
 
 /*expand width animation*/
 @-webkit-keyframes arlo_tm_expand {0%{ width:0%; } 100%{ width:100%; }}
-@-moz-keyframes arlo_tm_expand {0%{ width:0%; } 100%{ width:100%; }}
 @keyframes arlo_tm_expand {0%{ width:0%; } 100%{ width:100%; }}
 
 .arlo_tm_mini_title_holder{
@@ -900,8 +872,7 @@ img.svg{
 	clear: both;
 	float: left;
 	
-	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */ /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
 }
 .arlo_tm_mini_title_holder h4{
@@ -926,8 +897,7 @@ img.svg{
 	height: auto;
 	margin-bottom: 70px;
 	text-align: left;
-	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */ /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */ 
 }
 .arlo_tm_skills_wrap .arlo_tm_services_wrap .arlo_tm_title_holder_wrap,
@@ -935,16 +905,14 @@ img.svg{
 
 .arlo_tm_skills_wrap .container .inner,
 .arlo_tm_services_wrap .container .inner{
-	box-shadow: 0 0 20px rgba(0,0,0,.1);
+	-webkit-box-shadow: 0 0 20px rgba(0,0,0,.1);
+	        box-shadow: 0 0 20px rgba(0,0,0,.1);
 	padding: 40px 40px 35px 40px;
 	margin-bottom: 20px;
 	-webkit-transition: all .3s ease;
-	   -moz-transition: all .3s ease;
-	    -ms-transition: all .3s ease;
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
-	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */ /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */ 
 }
 
@@ -956,11 +924,17 @@ img.svg{
 
 .arlo_tm_services_wrap .container .inner .text {
 	height: 75%;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
 	display: -webkit-flex;
-	-webkit-flex-direction: column;
 	-webkit-justify-content: space-between;
 }
 .arlo_tm_skills_wrap .container .inner:hover,
@@ -996,8 +970,7 @@ img.svg{
 	clear: both;
 	float: left;
 	
-	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */ /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
 }
 .arlo_tm_counter_wrap{overflow: hidden;}
@@ -1007,7 +980,6 @@ img.svg{
 	margin: 0px;
 	
 	-webkit-perspective: 500px;
-	-moz-perspective: 500px;
 	perspective: 500px;
 }
 .arlo_tm_counter_list li{
@@ -1016,8 +988,7 @@ img.svg{
 	text-align:center;
 	margin: 0px;
 	
-	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */ /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
 }
 .arlo_tm_counter_list li .inner{
@@ -1028,8 +999,7 @@ img.svg{
 	position: relative;
 	padding: 90px 15px 93px 15px;
 	
-	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */ /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
 }
 .arlo_tm_counter_list li .inner:before{
@@ -1070,8 +1040,7 @@ img.svg{
 	padding: 70px 0;
 	background-color: #f6f7fd;
 	
-	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */ /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */ 
 }
 .arlo_tm_portfolio_wrapper_all .arlo_tm_button{text-align: center;}
@@ -1080,8 +1049,7 @@ img.svg{
 	height: auto;
 	clear: both;
 	float: left;
-	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */ /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */ 
 }
 .arlo_tm_portfolio_filter{
@@ -1092,8 +1060,7 @@ img.svg{
 	margin: 0px 0px 13px 0px;
 	display: inline-block;
 	
-	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */ /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
 }
 .arlo_tm_portfolio_filter li{
@@ -1111,8 +1078,6 @@ img.svg{
 	position: relative;
 	
 	-webkit-transition: all .1s ease;
-	   -moz-transition: all .1s ease;
-	    -ms-transition: all .1s ease;
 	     -o-transition: all .1s ease;
 	        transition: all .1s ease;
 }
@@ -1132,8 +1097,7 @@ img.svg{
 	list-style-type:none;
 	margin: 0px 0px 0px -30px;
 	
-	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */ /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
 }
 .arlo_tm_portfolio_list > li{
@@ -1143,8 +1107,7 @@ img.svg{
 	margin: 0px 0px 30px 0px;
 	padding-left: 30px;
 	
-	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */ /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
 }
 .arlo_tm_portfolio_list li img{min-width: 100%;}
@@ -1196,8 +1159,7 @@ img.svg{
 	float: left;
 	position: relative;
 	
-	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */ /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
 }
 .arlo_tm_universal_box_wrap .bg_wrap{
@@ -1234,7 +1196,8 @@ img.svg{
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	object-fit: cover;
+	-o-object-fit: cover;
+	   object-fit: cover;
 }
 .arlo_tm_universal_box_wrap .overlay_color{
 	position: absolute;
@@ -1252,8 +1215,7 @@ img.svg{
 	position: relative;
 	z-index: 25;
 	
-	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */ /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
 }
 /* .arlo_tm_universal_box_wrap .overlay_image.testimonial{background-image: url(..//img/hero/3.jpg);} */
@@ -1273,8 +1235,7 @@ img.svg{
 	float: left;
 	background-color: #fff;
 	
-	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */ /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
 }
 .arlo_tm_contact_wrap_all .leftbox{
@@ -1283,8 +1244,7 @@ img.svg{
 	float: left;
 	padding-right: 40px;
 	
-	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */ /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */		
 }
 .arlo_tm_contact_wrap_all .leftbox .short_info_wrap{
@@ -1293,8 +1253,7 @@ img.svg{
 	clear: both;
 	float: left;
 	padding-top: 20px;
-	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */ /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
 }
 .arlo_tm_contact_wrap_all .leftbox .short_info_wrap ul{
@@ -1323,8 +1282,7 @@ img.svg{
 	height: auto;
 	float: right;
 	
-	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */ /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */		
 }
 .arlo_tm_contact_wrap{
@@ -1332,8 +1290,7 @@ img.svg{
 	height: auto;
 	margin: 0px auto;
 	
-	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */ /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
 }
 .arlo_tm_contact_wrap .subtitle{
@@ -1353,8 +1310,7 @@ img.svg{
 	clear: both;
 	float: left;
 	
-	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */ /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
 }
 .arlo_tm_contact_wrap .main_input_wrap .wrap{margin-bottom: 20px;}
@@ -1425,8 +1381,7 @@ img.svg{
 	background-color: #fff;
 	padding: 50px 0px;
 	
-	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */ /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */ 
 }
 .arlo_tm_footer_wrap p{color: #000;}
@@ -1440,8 +1395,6 @@ img.svg{
 
 .short_info_wrap ul li a {
     -webkit-transition: all .3s ease;
-    -moz-transition: all .3s ease;
-    -ms-transition: all .3s ease;
     -o-transition: all .3s ease;
     transition: all .3s ease;
 }
@@ -1469,8 +1422,6 @@ img.svg{
 	visibility: hidden;
 	
 	-webkit-transition: all .5s ease;
-	   -moz-transition: all .5s ease;
-	    -ms-transition: all .5s ease;
 	     -o-transition: all .5s ease;
 	        transition: all .5s ease;
 }
@@ -1482,8 +1433,12 @@ img.svg{
     left: -75%;
 	width: 0%;
     background-color: #041230;
-    transform: skew(50deg);
-    transition-duration: .6s;
+    -webkit-transform: skew(50deg);
+        -ms-transform: skew(50deg);
+            transform: skew(50deg);
+    -webkit-transition-duration: .6s;
+         -o-transition-duration: .6s;
+            transition-duration: .6s;
     z-index: 1;
 }
 .arlo_tm_totop:after{
@@ -1522,14 +1477,19 @@ img.svg{
 	clear: both;
 	float: left;
 	padding: 30px 20px;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	align-items: center;
-	justify-content: space-between;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
 	background-color: #fff;
 	border-bottom: 1px solid rgba(255,255,255,.1);
 	
-	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */ /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
 }
 .arlo_tm_trigger{width: auto;}
@@ -1537,9 +1497,17 @@ img.svg{
     padding: 15px 15px;
     display: inline-block;
     cursor: pointer;
+    -webkit-transition-property: opacity, -webkit-filter;
+    transition-property: opacity, -webkit-filter;
+    -o-transition-property: opacity, filter;
     transition-property: opacity, filter;
-    transition-duration: 0.15s;
-    transition-timing-function: linear;
+    transition-property: opacity, filter, -webkit-filter;
+    -webkit-transition-duration: 0.15s;
+         -o-transition-duration: 0.15s;
+            transition-duration: 0.15s;
+    -webkit-transition-timing-function: linear;
+         -o-transition-timing-function: linear;
+            transition-timing-function: linear;
     font: inherit;
     color: inherit;
     text-transform: none;
@@ -1564,13 +1532,18 @@ img.svg{
     height: 2px;
     background-color: #333333;
     position: absolute;
+    -webkit-transition-property: -webkit-transform;
+    transition-property: -webkit-transform;
+    -o-transition-property: transform;
     transition-property: transform;
-    transition-duration: 0.15s;
-    transition-timing-function: ease;
-	
-	-webkit-border-radius: 4px;
-	   -moz-border-radius: 4px;
-	        border-radius: 4px;
+    transition-property: transform, -webkit-transform;
+    -webkit-transition-duration: 0.15s;
+         -o-transition-duration: 0.15s;
+            transition-duration: 0.15s;
+    -webkit-transition-timing-function: ease;
+         -o-transition-timing-function: ease;
+            transition-timing-function: ease;
+	border-radius: 4px;
 }
 .arlo_tm_trigger .hamburger-inner::before,
 .arlo_tm_trigger .hamburger-inner::after{
@@ -1582,31 +1555,56 @@ img.svg{
 .arlo_tm_trigger .hamburger--collapse-r .hamburger-inner{
     top: auto;
     bottom: 0;
-    transition-duration: 0.13s;
-    transition-delay: 0.13s;
-    transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    -webkit-transition-duration: 0.13s;
+         -o-transition-duration: 0.13s;
+            transition-duration: 0.13s;
+    -webkit-transition-delay: 0.13s;
+         -o-transition-delay: 0.13s;
+            transition-delay: 0.13s;
+    -webkit-transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+         -o-transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+            transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
 }
 .arlo_tm_trigger .hamburger--collapse-r .hamburger-inner::after{
     top: -16px;
+    -webkit-transition: top 0.2s 0.2s cubic-bezier(0.33333, 0.66667, 0.66667, 1), opacity 0.1s linear;
+    -o-transition: top 0.2s 0.2s cubic-bezier(0.33333, 0.66667, 0.66667, 1), opacity 0.1s linear;
     transition: top 0.2s 0.2s cubic-bezier(0.33333, 0.66667, 0.66667, 1), opacity 0.1s linear;
 }
 .arlo_tm_trigger .hamburger--collapse-r .hamburger-inner::before{
+    -webkit-transition: top 0.12s 0.2s cubic-bezier(0.33333, 0.66667, 0.66667, 1), -webkit-transform 0.13s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    transition: top 0.12s 0.2s cubic-bezier(0.33333, 0.66667, 0.66667, 1), -webkit-transform 0.13s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    -o-transition: top 0.12s 0.2s cubic-bezier(0.33333, 0.66667, 0.66667, 1), transform 0.13s cubic-bezier(0.55, 0.055, 0.675, 0.19);
     transition: top 0.12s 0.2s cubic-bezier(0.33333, 0.66667, 0.66667, 1), transform 0.13s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    transition: top 0.12s 0.2s cubic-bezier(0.33333, 0.66667, 0.66667, 1), transform 0.13s cubic-bezier(0.55, 0.055, 0.675, 0.19), -webkit-transform 0.13s cubic-bezier(0.55, 0.055, 0.675, 0.19);
 }
 .arlo_tm_trigger .hamburger--collapse-r.is-active .hamburger-inner{
-    transform: translate3d(0, -10px, 0) rotate(45deg);
-    transition-delay: 0.22s;
-    transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    -webkit-transform: translate3d(0, -10px, 0) rotate(45deg);
+            transform: translate3d(0, -10px, 0) rotate(45deg);
+    -webkit-transition-delay: 0.22s;
+         -o-transition-delay: 0.22s;
+            transition-delay: 0.22s;
+    -webkit-transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+         -o-transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+            transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 .arlo_tm_trigger .hamburger--collapse-r.is-active .hamburger-inner::after{
     top: 0;
     opacity: 0;
+    -webkit-transition: top 0.2s cubic-bezier(0.33333, 0, 0.66667, 0.33333), opacity 0.1s 0.22s linear;
+    -o-transition: top 0.2s cubic-bezier(0.33333, 0, 0.66667, 0.33333), opacity 0.1s 0.22s linear;
     transition: top 0.2s cubic-bezier(0.33333, 0, 0.66667, 0.33333), opacity 0.1s 0.22s linear;
 }
 .arlo_tm_trigger .hamburger--collapse-r.is-active .hamburger-inner::before{
     top: 0;
-    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+            transform: rotate(90deg);
+    -webkit-transition: top 0.1s 0.16s cubic-bezier(0.33333, 0, 0.66667, 0.33333), -webkit-transform 0.13s 0.25s cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition: top 0.1s 0.16s cubic-bezier(0.33333, 0, 0.66667, 0.33333), -webkit-transform 0.13s 0.25s cubic-bezier(0.215, 0.61, 0.355, 1);
+    -o-transition: top 0.1s 0.16s cubic-bezier(0.33333, 0, 0.66667, 0.33333), transform 0.13s 0.25s cubic-bezier(0.215, 0.61, 0.355, 1);
     transition: top 0.1s 0.16s cubic-bezier(0.33333, 0, 0.66667, 0.33333), transform 0.13s 0.25s cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition: top 0.1s 0.16s cubic-bezier(0.33333, 0, 0.66667, 0.33333), transform 0.13s 0.25s cubic-bezier(0.215, 0.61, 0.355, 1), -webkit-transform 0.13s 0.25s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 .arlo_tm_trigger .hamburger{
 	padding: 0px;
@@ -1622,8 +1620,6 @@ img.svg{
 	width: 30px;
 	
 	-webkit-transition: all .3s ease;
-	   -moz-transition: all .3s ease;
-	    -ms-transition: all .3s ease;
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
@@ -1638,8 +1634,7 @@ img.svg{
 	border-bottom: 1px solid rgba(0,0,0,.09);
 	border-top: 1px solid rgba(0,0,0,.09);
 	
-	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */ /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */	
 }
 .arlo_tm_mobile_menu_wrap .mob_menu{
@@ -1647,8 +1642,7 @@ img.svg{
 	height: auto;
 	clear: both;
 	float: left;
-	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */ /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
 }
 .arlo_tm_mobile_menu_wrap .mob_menu > ul{
@@ -1679,21 +1673,21 @@ img.svg{
 	.arlo_tm_preloader{display: none;}
 }
 @media (max-width: 1040px) {
-	.arlo_tm_about_wrap{flex-direction: column;}
+	.arlo_tm_about_wrap{-webkit-box-orient: vertical;-webkit-box-direction: normal;-ms-flex-direction: column;flex-direction: column;}
 	.arlo_tm_about_wrap .rightpart .info_list ul li{width: 100%;}
 	.arlo_tm_about_wrap .leftbox{width: 100%;padding-right: 0px;}
 	.arlo_tm_about_wrap .leftbox .about_image_wrap{display: none;}
 	.arlo_tm_about_wrap .rightpart{width: 100%;}
-	.arlo_tm_skills_wrap .inner_wrap{flex-direction: column;}
+	.arlo_tm_skills_wrap .inner_wrap{-webkit-box-orient: vertical;-webkit-box-direction: normal;-ms-flex-direction: column;flex-direction: column;}
 	.arlo_tm_skills_wrap .leftbox{padding-right: 0px;width: 100%;margin-bottom: 60px;}
 	.arlo_tm_skills_wrap .rightbox{width: 100%;padding-left: 0px;}
 	.arlo_tm_main_demos_list_wrap ul{margin: 0px;}
 	.arlo_tm_main_demos_list_wrap ul li{width: 100%;padding: 0px;}
-	.arlo_tm_portfolio_single_wrap .details_wrap{flex-direction: column;}
+	.arlo_tm_portfolio_single_wrap .details_wrap{-webkit-box-orient: vertical;-webkit-box-direction: normal;-ms-flex-direction: column;flex-direction: column;}
 	.arlo_tm_portfolio_single_wrap .details_wrap .leftbox{padding-right: 0px;width: 100%;margin-bottom: 50px;}
 	.arlo_tm_portfolio_single_wrap .details_wrap .rightbox{width: 100%;}
 	.arlo_tm_mobile_header_wrap{display: block;}
-	.arlo_tm_about_wrap .author_wrap{flex-direction: column;align-items: baseline; }
+	.arlo_tm_about_wrap .author_wrap{-webkit-box-orient: vertical;-webkit-box-direction: normal;-ms-flex-direction: column;flex-direction: column;-webkit-box-align: baseline;-ms-flex-align: baseline;align-items: baseline; }
 	.arlo_tm_about_wrap .rightbox{width: 100%;padding-left: 0px;}
 	.arlo_tm_rightpart{padding-left: 0px;}
 	.arlo_tm_leftpart_wrap{display: none;}
