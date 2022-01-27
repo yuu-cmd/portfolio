@@ -923,7 +923,7 @@ img.svg{
 }
 
 .arlo_tm_services_wrap .container .inner .text {
-	height: 75%;
+	height: auto;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
