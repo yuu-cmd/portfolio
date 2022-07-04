@@ -916,12 +916,6 @@ img.svg{
 			box-sizing: border-box; /* Opera/IE 8+ */ 
 }
 
-.arlo_tm_skills_wrap .container .inner .text,
-.arlo_tm_services_wrap .container .inner .text{
-	text-align: justify;
-	text-justify: inter-ideograph;
-}
-
 .arlo_tm_services_wrap .container .inner .text {
 	height: auto;
 	display: -webkit-box;
